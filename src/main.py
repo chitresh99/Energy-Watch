@@ -11,7 +11,7 @@ load_dotenv()
 
 app = FastAPI()
 
-API_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv("FINANCIAL_DATA_API_KEY")
 BASE_URL = os.getenv("BASE_URL")
 stocklist = [
     "XOM",
